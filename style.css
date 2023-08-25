@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: goldenrod;
+    width: 100%;
+    height: 100px;
+}
+.logo{
+    padding: 30px 0;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.logo a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 150px;
+}
+.navlink{
+    display: flex;
+    margin-left: 60%;
+    margin-top: -55px;
+}
+.navlink li{
+    list-style-type: none;
+    width: 20%;
+}
+.navlink li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.navlink li a:hover{
+    color: green;
+    background-color: wheat;
+    padding: 5px 5px;
+    
+}
+.slide{
+    width: 80%;
+    overflow: hidden;
+    margin: 30px auto;
+
+}
+.slide input{
+    display: none;
+}
+.slide figure{
+    width:500%;
+    display: flex;
+}
+.slide figure img{
+    width: 20%;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    transition: 1s;
+}
+
+.navbutton{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+}
+.button{
+    border: 1.5px solid rgb(23, 10, 10);
+    padding: 6px;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(229, 255, 0);
+    border-color: rgb(255, 94, 0);
+}
+
+#radiobtn1:checked~.first{
+    margin-left: 0%;
+}   
+
+#radiobtn2:checked~.first{
+    margin-left: -20%;
+}   
+
+#radiobtn3:checked~.first{
+    margin-left: -40%;
+}   
+
+#radiobtn4:checked~.first{
+    margin-left: -60%;
+}   
+.bar{
+    background-color: goldenrod;
+    width: 100%;
+    height: 150px;
+}
+.navbar{
+    display: flex;
+    margin-left: 35%;
+    padding: 30px 0;
+}
+.navbar li{
+    list-style-type: none;
+    width: 15%;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.footerbottom {
+    margin-left: 40%;
+    margin-bottom: 30%s;
+    
+}
+.footerbottom p{
+    color: red;
+}
+.design{
+    color: blueviolet;
+}
+
